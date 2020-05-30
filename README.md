@@ -2,7 +2,7 @@
 Apply clean architecture principles
 
 ## Goal
-Create an application with clean architecture.
+Create an application with clean architecture. Start monolith and move to microservices (if time permits).
 
 ## Domain
 Taxi haling because it is very well known.
@@ -13,6 +13,9 @@ Taxi haling because it is very well known.
 * CancelRide
 * PickupRide
 * DropRide
+
+> passenger --- ride --- driver
+> notifications
 
 ## Technologies
 * Java
